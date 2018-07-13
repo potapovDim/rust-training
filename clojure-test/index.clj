@@ -1,3 +1,6 @@
-(ns clojure.examples.hello(:gen-class))
-(defn hello-world [] (println "Hello World")) (hello-world)
-(defn test-func [] (println "a+b"))(test-func)
+*ns*
+(ns clojure.potapov.training (:gen-class))
+(defn FirstClass []
+  (println (str "first string"))
+  (println (+ 1 2))
+)(FirstClass)
