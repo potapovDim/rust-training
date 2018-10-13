@@ -15,7 +15,6 @@ guardFact :: Integer -> Integer
 guardFact n | n == 0 = 1
             | n /=0 = n * guardFact(n-1)
 
-
 main = do
     putStrLn "Strin is here" -- console.log js
     print(add 2 6) -- console.log
